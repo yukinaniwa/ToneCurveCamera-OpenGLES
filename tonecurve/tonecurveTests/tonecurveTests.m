@@ -2,7 +2,7 @@
 //  tonecurveTests.m
 //  tonecurveTests
 //
-//  Created by yuuki naniwa on 2015/08/04.
+//  Created by yuki naniwa on 2015/08/04.
 //  Copyright (c) 2015年 tonetone. All rights reserved.
 //
 
