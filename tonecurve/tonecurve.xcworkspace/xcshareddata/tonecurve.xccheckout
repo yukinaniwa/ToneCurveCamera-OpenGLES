@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>94D4CD56-20C3-44D5-B500-90F583B921EF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>tonecurve</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>66E6EB947162FD854294F5D63CDB06215B794DFE</key>
+		<string>https://github.com/yukinaniwa/ToneCurveCamera-OpenGLES.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>tonecurve/tonecurve.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>66E6EB947162FD854294F5D63CDB06215B794DFE</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/yukinaniwa/ToneCurveCamera-OpenGLES.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>66E6EB947162FD854294F5D63CDB06215B794DFE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>66E6EB947162FD854294F5D63CDB06215B794DFE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ToneCurveCamera-OpenGLES</string>
+		</dict>
+	</array>
+</dict>
+</plist>

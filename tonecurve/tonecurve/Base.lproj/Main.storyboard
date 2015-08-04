@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -25,16 +26,31 @@
                                 <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gxw-SX-Yo6">
+                                <rect key="frame" x="16" y="20" width="568" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="HNx-2K-zy9"/>
+                                </constraints>
+                                <string key="text">filter change in swipe
+capture screen tap</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="kxW-Dg-V9v" secondAttribute="bottom" id="2sE-ra-QSS"/>
                             <constraint firstAttribute="trailing" secondItem="kxW-Dg-V9v" secondAttribute="trailing" id="AE0-54-Qzc"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Gxw-SX-Yo6" secondAttribute="trailing" id="MDc-Mj-7Qu"/>
+                            <constraint firstItem="Gxw-SX-Yo6" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="W05-9a-Fw9"/>
+                            <constraint firstItem="Gxw-SX-Yo6" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="dKg-yu-IPe"/>
                             <constraint firstItem="kxW-Dg-V9v" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="eDa-Yf-OVS"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="filtername" destination="kxW-Dg-V9v" id="DmY-ZH-Ple"/>
+                        <outlet property="labeldesc" destination="Gxw-SX-Yo6" id="qPo-jg-2d6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>

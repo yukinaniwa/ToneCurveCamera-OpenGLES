@@ -12,9 +12,9 @@
 {
     NSInteger indexfilter;
 }
-//@property(nonatomic) GPUImageVideoCamera* videoCamera;
 @property(nonatomic) GPUImageOutput<GPUImageInput>* filter;
 @property (weak, nonatomic) IBOutlet UILabel *filtername;
+@property (weak, nonatomic) IBOutlet UILabel *labeldesc;
 @property(nonatomic) GPUImageView* glview;
 @property(nonatomic) GPUImageStillCamera* stillCamera;
 @end
@@ -40,6 +40,7 @@
     [self.view addSubview:self.glview];
     
     [self.view bringSubviewToFront:self.filtername];
+    [self.view bringSubviewToFront:self.labeldesc];
     
     self.filtername.text = @"curves_1";
     self.view.userInteractionEnabled = YES;
@@ -56,6 +57,7 @@
         
         self.filtername.text = filterfile;
     }];
+    swipe.direction = UISwipeGestureRecognizerDirectionLeft|UISwipeGestureRecognizerDirectionRight;
     [self.view addGestureRecognizer:swipe];
     
     [self.view bk_whenTapped:^{
