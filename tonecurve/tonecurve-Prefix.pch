@@ -1,0 +1,22 @@
+//
+//  prototype-Prefix.pch
+//  
+//
+//  Created by naniwa on 2015/03/23.
+//
+//
+
+#ifndef _prototype_Prefix_pch
+#define _prototype_Prefix_pch
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import "GPUImage.h"
+#import "BlocksKit.h"
+#import "BlocksKit+UIKit.h"
+#endif
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif
