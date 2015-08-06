@@ -15,13 +15,16 @@ PODS:
     - BlocksKit/Core
     - BlocksKit/DynamicDelegate
   - GPUImage (0.1.7)
+  - Toast (2.4)
 
 DEPENDENCIES:
   - BlocksKit
   - GPUImage
+  - Toast
 
 SPEC CHECKSUMS:
   BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
   GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  Toast: 0773b8fc0e97352ca6054517bec7ebdd4110029d
 
 COCOAPODS: 0.36.3

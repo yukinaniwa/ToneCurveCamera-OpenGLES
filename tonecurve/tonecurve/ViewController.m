@@ -68,6 +68,7 @@
             else {
                 UIImage* capturedImage = [[UIImage alloc] initWithData:imageData];
                 UIImageWriteToSavedPhotosAlbum(capturedImage, NULL, NULL, NULL);
+                [self.view makeToast:@"save image."];
             }
             runOnMainQueueWithoutDeadlocking(^{
                 self.view.userInteractionEnabled = YES;
